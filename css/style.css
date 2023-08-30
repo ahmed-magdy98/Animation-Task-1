@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #442c2c; */
+}
+
+.car1,.car2,.car3,.car4,.car4,.car5,.car6{
+    display: block;
+    /* background-color: aqua; */
+    width: 150px;
+    height: 95px;
+    position: absolute;
+    /* margin-bottom: 15px; */
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.road{
+    width: 100%;
+    background-color: rgb(0, 0, 0); 
+    height: 3px;
+    position: absolute;
+    z-index: 10;
+}
+
+/* ********************************************************************* */
+
+.car1{
+    top: 20px;
+    animation: car1-anim 5s forwards;
+}
+@keyframes car1-anim{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 90%;
+    }
+}
+.ro-1{
+    top: 98px;
+}
+/* --------------------------------- */
+.car2{
+    top: 135px;
+    animation: car2-anim 5s 5s forwards;
+    right: 0%;
+}
+@keyframes car2-anim{
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 90%;
+    }
+}
+.ro-2{
+    top: 198px;
+}
+/* ------------------------------------------ */
+.car3{
+    top: 245px;
+    animation: car3-anim 5s 10s forwards;
+}
+@keyframes car3-anim{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 90%;
+    }
+}
+.ro-3{
+    top: 323px;
+}
+/* --------------------------------------------------- */
+
+.car4{
+    top: 375px;
+    animation: car4-anim 5s 15s forwards;
+    right: 0%;
+}
+@keyframes car4-anim{
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 90%;
+    }
+}
+.ro-4{
+    top: 438px;
+}
+/* ------------------------------------------------------ */
+
+.car5{
+    top: 485px;
+    animation: car5-anim 5s 20s forwards;
+}
+@keyframes car5-anim{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 90%;
+    }
+}
+.ro-5{
+    top: 563px;
+}
+/* --------------------------------------------- */
+
+.car6{
+    top: 615px;
+    animation: car6-anim 5s 25s forwards;
+    right: 0%;
+}
+@keyframes car6-anim{
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 90%;
+    }
+}
+.ro-6{
+    top: 678px;
+}
+
+
+/* ***************************************************************** */
+/* ***************************************************************** */
